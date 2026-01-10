@@ -1,0 +1,15 @@
+{
+  "name": "faricars BLE",
+  "version": "dev",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "bootloader.bin", "offset": 0 },
+        { "path": "partition-table.bin", "offset": 32768 },
+        { "path": "turkeyvip_ble.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
+
